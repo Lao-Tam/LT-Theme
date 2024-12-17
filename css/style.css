@@ -185,10 +185,6 @@ color: var(--color-Orange);
     margin-right: -10px;
 }
 
-.row-fix-nav {
-    margin-left: -24px;
-    margin-right: -24px;
-}
 .row-fix .col-fix {
     padding-left: 10px;
     padding-right: 10px;
