@@ -156,14 +156,72 @@ color: var(--color-Orange);
 
 }
 .banner img{
-
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 
+.banner-ads{
+    transition: all .8s linear;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-ads img{
+    transition: all .8s linear;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.banner-ads img:hover {
+    transform: scale(1.04);
+    transition: all .8s linear;
+}
+
+.row-fix {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row-fix-nav {
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.row-fix .col-fix {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-ads .container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* CARD */
+
+.card-nav{
+    transition: all .8s linear;
+}
+
+.card-nav .card{
+    transition: all .8s linear;
+   
+}
+
+.card-nav .card:hover {
+    transform: scale(1.0);
+    transition: all .8s linear;
+    background-color: #ff67005c;
+}
+
 .card-footer {
     padding: var(--padding-y) var(--padding-x);
     color: var(--bs-card-cap-color);
