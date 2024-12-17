@@ -219,7 +219,7 @@ color: var(--color-Orange);
 .card-nav .card:hover {
     transform: scale(1.0);
     transition: all .8s linear;
-    background-color: #ff67005c;
+    background-color: #f3e1d4;
 }
 
 .card-footer {
